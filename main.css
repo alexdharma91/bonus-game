@@ -1,0 +1,74 @@
+BODY {
+    background: -webkit-linear-gradient(left, #FF8900 , #FF9073); /* For Safari 5.1 to 6.0 */
+    margin: 0;
+}
+
+.content_panel {
+    margin: 10px auto 5px;
+}
+
+.action_panel {
+    background: blue;
+    border: groove red;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    margin: 10px auto 5px;
+    opacity: 0.75;
+}
+
+.button {
+    height: 35px;
+    width: 35px;
+    border: groove red;
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+}
+
+.button_panel{
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto 5px;
+    width: 400px;
+}
+
+#liniya {
+    opacity: 0.5;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    width:110px;
+    height:50px;
+    background: #996223;
+    float:left;
+    margin-left:18px;
+    text-align:center;
+}
+
+#liniya .vertical-button{
+    width: 50%;
+    margin: 0 auto;
+    float:none;
+    margin-left: 50%;
+}
+
+#hhh{
+    opacity: 0.5;
+    border-radius: 5px 5px 5px 5px;
+    width:110px;
+    height:50px;
+    margin: 0 auto;
+    background: #996223;
+}
+
+canvas{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background: red;
+}

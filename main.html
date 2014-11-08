@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="ng_app" ng-controller="mainController">
+<head>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="angular.js"></script>
+    <script src="moment.js"></script>
+    <script src="game-model.js"></script>
+    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <title>
+        Paint
+    </title>
+</head>
+<body ng-keydown="onKeyPress($event)">
+
+
+<div class="header">
+</div>
+
+
+<div class="content_panel">
+
+    <div class="action_panel">
+        <canvas id="mainCanvas"></canvas>
+    </div>
+
+    <div class="button_panel">
+        <div class="vertical-button" id="hhh" ng-keydown="upKey($event)">
+
+        </div>
+    </div>
+
+    <div class="button_panel">
+
+        <div id="liniya" ng-keydown="leftKey($event)">
+           <b>jnj</b>
+        </div>
+
+        <div id="liniya" ng-keydown="downKey($event)">
+
+        </div>
+
+        <div id="liniya" ng-keydown="rightKey($event)">
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

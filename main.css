@@ -15,6 +15,7 @@ BODY {
     width: 500px;
     margin: 10px auto 5px;
     opacity: 0.75;
+    visibility: hidden;
 }
 
 .button {
@@ -31,9 +32,10 @@ BODY {
     overflow: hidden;
     margin: 10px auto 5px;
     width: 400px;
+    visibility: hidden;
 }
 
-#liniya {
+#button-row {
     opacity: 0.5;
     border-radius: 5px 5px 5px 5px;
     position: relative;
@@ -45,7 +47,7 @@ BODY {
     text-align:center;
 }
 
-#liniya .vertical-button{
+#button-row .vertical-button{
     width: 50%;
     margin: 0 auto;
     float:none;
@@ -72,3 +74,57 @@ canvas{
     width: 100%;
     background: red;
 }
+
+.actionButton{
+  position: relative;
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.actionButton {
+    display: inline-block;
+    color: #e5ffed;
+    background: #b81507;
+    font: serif 12px;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 1px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.actionButton:hover { background: rgba(255,255,255,.2); }
+.actionButton:active { background: white; }
+
+.header-wrapper{
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.header-item{
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    width:110px;
+    height:50px;
+    float:left;
+    margin-left:18px;
+    text-align:center;
+}
+
+.infoPanel{
+    height: 50px;
+    width: 300px;
+    border: white solid 1pt;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 380px;
+    background: #b81507;
+}
+
+

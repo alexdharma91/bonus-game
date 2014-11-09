@@ -20,6 +20,11 @@ ngApp.controller('mainController', ['$scope', function ($scope) {
         $scope.keyPress(4);
     };
 
+    $scope.startKey = function(){
+
+    }
+
+
     $scope.keyPress = function(target){
         if(target == null || $scope.target != target){
             $scope.stopInterval();

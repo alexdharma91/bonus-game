@@ -9,13 +9,27 @@
     <script src="main.js"></script>
     <meta charset="utf-8">
     <title>
-        Paint
+        Bonus Game
     </title>
 </head>
 <body ng-keydown="onKeyPress($event)">
 
 
 <div class="header">
+    <div class="header-wrapper">
+
+        <div class="header-item">
+            <button class="actionButton" ng-click="startKey()">
+                Start
+            </button>
+        </div>
+
+        <div class="header-item">
+            <div class="infoPanel">
+            </div>
+        </div>
+
+    </div>
 </div>
 
 
@@ -32,16 +46,15 @@
     </div>
 
     <div class="button_panel">
-
-        <div id="liniya" ng-keydown="leftKey($event)">
+        <div id="button-row" ng-keydown="leftKey($event)">
            <b>jnj</b>
         </div>
 
-        <div id="liniya" ng-keydown="downKey($event)">
+        <div id="button-row" ng-keydown="downKey($event)">
 
         </div>
 
-        <div id="liniya" ng-keydown="rightKey($event)">
+        <div id="button-row" ng-keydown="rightKey($event)">
 
         </div>
     </div>

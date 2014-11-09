@@ -2,6 +2,8 @@ function GameModel(radius) {
     this.radius = radius;
     this.xPoint = 20;
     this.yPoint = 20;
+
+    this.hitCount = 0;
 }
 
 GameModel.prototype.setCanvas = function (canvas) {
@@ -58,6 +60,7 @@ GameModel.prototype.checkDimension = function (nextXPoint, nextYPoint) {
 GameModel.prototype.checkHit = function(){
     if(Math.sqrt(Math.pow((this.xPoint - this.xBonusPoint), 2) + Math.pow((this.yPoint - this.yBonusPoint), 2)) <= this.radius){
         this.repaintBonus = true;
+        this.hitCount++;
     }else{
         this.repaintBonus = false;
     }

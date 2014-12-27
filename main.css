@@ -15,7 +15,6 @@ BODY {
     width: 500px;
     margin: 10px auto 5px;
     opacity: 0.75;
-    visibility: hidden;
 }
 
 .button {
@@ -127,4 +126,8 @@ canvas{
     background: #b81507;
 }
 
+.infoPanel p{
+    color: white;
+    font: 2px;
+}
 
